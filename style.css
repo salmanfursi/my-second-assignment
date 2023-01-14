@@ -2,6 +2,9 @@
     margin: 0;
 }
 
+/* header start header done*/
+
+
 /* header background-color */
 .bgc{
     background-color:rgba(255, 144, 14, 0.1);
@@ -54,7 +57,7 @@
 
 .btn{
     margin-top: 20px;
-    height: 50px;
+    height: 40px;
     width: 120px;
     font-weight: 700;
     color: aliceblue;
@@ -70,7 +73,92 @@
     width: 70vw;
     margin-top: 30px;
     margin-left: 153px;
+    margin-bottom: 20px;
 }
+
+/* header done  header done*/
+/* header done  header done*/
+
+
+
+/* main start main star */
+
+/* first-section */
+
+.first-section{
+    display: flex;
+    gap: 20px;
+    margin: 80px 140px;
+    padding-left: 14px;
+}
+/* images  */
+.img1{
+    height: 240px;
+    width: 200px;
+}
+
+.images-mother{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 10px 20px; 
+    width: 500px; 
+}
+/* images done */
+
+/* description */
+.section-1-description{
+margin-left: px;
+height: 179px;
+
+
+
+}
+
+.section-1-text{
+    color: gray;
+    font-size: 18px;
+    font-weight: 100; 
+}
+
+.titlerspan1{
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 53px;
+
+}
+.titlerspan2{
+    font-family: 'Open Sans', sans-serif;
+    color: #FF900E;
+    font-size: 27px;
+    padding-top: 0px;
+}
+.section-1-p{
+    margin: 12px 0px;
+    font-size: 14px;
+    font-style: normal;
+    color: gray;
+}
+.section-1-btn{
+   
+    height: 40px;
+    width: 120px;
+    font-weight: 700;
+    color: aliceblue;
+    background-color: rgb(254, 143, 64);
+    border: none;
+    border-radius: 7px;
+
+}
+
+
+
+
+
+
+
 
 
 
