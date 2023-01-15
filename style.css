@@ -66,6 +66,7 @@ body{
     background-color: rgb(254, 143, 64);
     border: none;
     border-radius: 7px;
+    transition:height 0.5s, width 0.5s ,background-color 0.5s;
 }
 
 /* image image image */
@@ -109,7 +110,7 @@ body{
 
 /* description  description*/
 .section-1-description{
-margin-left: px;
+margin-top: 120px;
 height: 179px;
 
 
@@ -153,12 +154,12 @@ height: 179px;
     background-color: rgb(254, 143, 64);
     border: none;
     border-radius: 7px;
+    transition: height 0.5s, width 0.5s ,background-color 1s;
 }
 
-/*--------------- first-section done *-----------------/
+/*----- first-section done *-------/
 
-
-/*----- second section start ---------*/
+/*----- second section start ------*/
 
 .second-section-flex{
     z-index: 3;
@@ -178,11 +179,13 @@ height: 179px;
     padding: 12px;
     border-left:solid 5px #FF900E;
     padding-right: 150px;
+    transition: background-color 1s;
 }
 .cors2{
     margin-bottom: 30px;
     padding-top: 30px;
     border-radius: 10px;
+    transition: background-color 1s;
 }
 
 .cors3{
@@ -191,6 +194,7 @@ height: 179px;
     box-shadow:1px 3px 10px rgb(228, 228, 228);
     padding: 12px 30px ;
     border-radius: 10px;
+    transition: background-color 1s;
 
 
 }
@@ -200,6 +204,7 @@ height: 179px;
     box-shadow:1px 3px 10px rgb(225, 225, 225);
     padding: 12px 30px ;
     border-radius: 10px;
+    transition: background-color 1s;
 
 }
 
@@ -208,6 +213,7 @@ height: 179px;
     box-shadow:1px 3px 10px rgb(225, 225, 225);
     padding: 12px 30px ;
     border-radius: 10px;
+    transition: background-color 1s;
 
 }
 
@@ -216,6 +222,7 @@ height: 179px;
     box-shadow:1px 3px 10px rgb(225, 225, 225);
     padding: 12px 30px ;
     border-radius: 10px;
+    transition: background-color 1s;
 
 }
 
@@ -277,11 +284,15 @@ height: 179px;
     text-align: center;
 
 }
+
 .fact-divs-border{
     border: 2px solid rgb(221, 148, 12);
     height: 120px;
     width: 140px;
     padding-top: 20px;
+    transition: height 1s,width 1s,color 1s,backgound-color 1.5s,transform 1.5s,
+    box-shadow 3s
+    ;
 
 }
 
@@ -312,10 +323,79 @@ h1{}
 .footer-second-section{
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     list-style: none;
-    gap: 80px;
+    gap: 75px;
+    padding: 0px 160px;
 }
+/* footer end bar */
+.bgcbox{
+    margin-top: 45px;
+    background-color: bisque;
+    height:50px ;
+    width:772px;
+    border-radius: 6px;
+    margin: 45px auto 70px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* hover  */
+/* hover  */
+.fact-divs-border:hover{
+    background-color: rgb(255, 126, 20);
+    color: azure;
+    height: 130px;
+    width: 140px;
+    transform: rotate(360deg);
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px;
+    
+
+}
+
+.btn:hover{
+    background-color: #a05d10;
+height:42px ;
+width: 122px;
+}
+
+
+.section-1-btn:hover{
+    background-color: #efb97c;
+height: 42px;
+width: 122px;
+    
+}
+
+
+
+.cors1:hover{
+    background-color: rgb(239, 188, 85);
+}
+.cors2:hover{
+    background-color: rgb(239, 188, 85);
+}
+.cors3:hover{
+    background-color: rgb(239, 188, 85);
+}
+.cors4:hover{
+    background-color: rgb(239, 188, 85);
+}
+.cors5:hover{
+    background-color: rgb(239, 188, 85);
+}
+.cors6:hover{
+    background-color: rgb(239, 188, 85);
+}
+
+
+
+
+
+
 
 
 
