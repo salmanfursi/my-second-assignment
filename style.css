@@ -83,7 +83,7 @@
 
 /* main start main star */
 
-/* first-section */
+/* first-section start*/
 
 .first-section{
     display: flex;
@@ -105,7 +105,7 @@
 }
 /* images done */
 
-/* description */
+/* description  description*/
 .section-1-description{
 margin-left: px;
 height: 179px;
@@ -119,7 +119,7 @@ height: 179px;
     font-size: 18px;
     font-weight: 100; 
 }
-
+/* title er vitorer span */
 .titlerspan1{
     font-family: 'Open Sans', sans-serif;
     color: black;
@@ -135,6 +135,7 @@ height: 179px;
     font-size: 27px;
     padding-top: 0px;
 }
+/* title er vitorer span done */
 .section-1-p{
     margin: 12px 0px;
     font-size: 14px;
@@ -150,6 +151,62 @@ height: 179px;
     background-color: rgb(254, 143, 64);
     border: none;
     border-radius: 7px;
+}
+
+/*--------------- first-section done *-----------------/
+
+
+/*----- second section start ---------*/
+
+.second-section-flex{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px 0px;
+    gap:20px;
+    margin-left: 115px;
+    margin-right: 8px;
+    padding: 0px 40px;
+}
+
+.architect-img{
+    display: flex;
+    /* width: 340px; */
+    height: 440px;
+}
+
+.cors1{
+    box-shadow: 5px 5px 5px ;
+    
+    background-color: aqua;
+    padding: 12px;
+    border-left:solid 5px #FF900E;
+    padding-right: 180px;
+}
+.cors2{
+    padding-top: 30px;
+
+}
+
+.cors3{
+    background-color: #FF900E;
+
+
+}
+
+.cors4{
+    background-color: #FF900E;
+    
+}
+
+
+.cors5{
+    background-color: #FF900E;
+
+}
+
+
+.cors6{
+    background-color: #FF900E;
 
 }
 
