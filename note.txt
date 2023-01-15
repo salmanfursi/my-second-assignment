@@ -15,3 +15,16 @@ text-align: left;
 
 
 FF900E#
+
+
+<div class="footer-icons">
+            <img src="images/sponsors/spotify.png" alt="" class="img-size">
+            <img src="images/sponsors/amazon.png" alt="" class="img-size">
+            <img src="images/sponsors/google.png" alt="" class="img-size">
+            <img src="images/sponsors/telerama.png" alt="" class="img-size">
+            <img src="images/sponsors/figma.png" alt="" class="img-size">
+        </div>
+        <div>
+            <h5>All rights reserved copyright@2023 startup landing page design
+            </h5>
+        </div>
